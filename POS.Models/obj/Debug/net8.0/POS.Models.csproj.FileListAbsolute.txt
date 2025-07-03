@@ -9,3 +9,5 @@ D:\Lesson\C#\Web API\.Net Core MVC\PosSystemMVC\POS.Models\obj\Debug\net8.0\POS.
 D:\Lesson\C#\Web API\.Net Core MVC\PosSystemMVC\POS.Models\obj\Debug\net8.0\refint\POS.Models.dll
 D:\Lesson\C#\Web API\.Net Core MVC\PosSystemMVC\POS.Models\obj\Debug\net8.0\POS.Models.pdb
 D:\Lesson\C#\Web API\.Net Core MVC\PosSystemMVC\POS.Models\obj\Debug\net8.0\ref\POS.Models.dll
+D:\Lesson\C#\Web API\.Net Core MVC\PosSystemMVC\POS.Models\obj\Debug\net8.0\POS.Models.csproj.AssemblyReference.cache
+D:\Lesson\C#\Web API\.Net Core MVC\PosSystemMVC\POS.Models\obj\Debug\net8.0\POS.Models.sourcelink.json

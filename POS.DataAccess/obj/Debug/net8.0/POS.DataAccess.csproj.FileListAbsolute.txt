@@ -17,3 +17,4 @@ D:\Lesson\C#\Web API\.Net Core MVC\PosSystemMVC\POS.DataAccess\obj\Debug\net8.0\
 D:\Lesson\C#\Web API\.Net Core MVC\PosSystemMVC\POS.DataAccess\obj\Debug\net8.0\POS.DataAccess.pdb
 D:\Lesson\C#\Web API\.Net Core MVC\PosSystemMVC\POS.DataAccess\obj\Debug\net8.0\POS.DataAccess.genruntimeconfig.cache
 D:\Lesson\C#\Web API\.Net Core MVC\PosSystemMVC\POS.DataAccess\obj\Debug\net8.0\ref\POS.DataAccess.dll
+D:\Lesson\C#\Web API\.Net Core MVC\PosSystemMVC\POS.DataAccess\obj\Debug\net8.0\POS.DataAccess.sourcelink.json

@@ -17,6 +17,7 @@ namespace POS.DataAccess.Repository.ProductRepo
         Task RemoveAsync(Product category);
 
         Task SaveAsync();
+        
     }
 }
 

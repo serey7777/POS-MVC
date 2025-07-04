@@ -45,12 +45,16 @@ namespace POS.Models
         [Display(Name = "Price of 100+")]
         [Range(1, 1000)]
         public double Price100 { get; set; }
+
         [Required(ErrorMessage = "Category is required")]
+        [Display(Name = ("Category"))]
         public int CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         [ValidateNever]
+       
         public Category Category { get; set; }
         [ValidateNever]
+        [Display(Name = ("Image"))]
         public string ImageUrl { get; set; }
     }
 }

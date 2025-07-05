@@ -11,12 +11,31 @@ namespace POS.DataAccess.Repository.ProductRepo
         public ProductRepository(ApplicationDbContext dbContext)
         {
             _DbContext = dbContext;
+            _DbContext.Products.Include(u => u.Category);
         }
 
+        //public async Task<IEnumerable<Product>> GetAllAsync(string? includeProp = null)
+        //{
+        //    IQueryable<Product> query = _DbContext.Products;
+
+        //    if (!string.IsNullOrEmpty(includeProp))
+        //    {
+        //        var includes = includeProp.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+        //        foreach (var include in includes)
+        //        {
+        //            query = query.Include(include.Trim());
+        //        }
+        //    }
+
+        //    return await query.ToListAsync();
+        //}
         public async Task<IEnumerable<Product>> GetAllAsync()
         {
-            return await _DbContext.Products.ToListAsync();
+            return await _DbContext.Products
+                .Include(p => p.Category)
+                .ToListAsync();
         }
+
 
         public async Task<Product?> GetByIdAsync(int id)
         {
